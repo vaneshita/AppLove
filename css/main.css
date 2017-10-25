@@ -15,7 +15,8 @@
 body {
   margin: 0 auto;
   font-size: 16px;
-  line-height: 1.71429;
+  background-color: black;
+
 }
 .menu{
   background-color: white;
@@ -23,7 +24,7 @@ body {
   left: 15%;
   padding: 15px;
 }
-.text{
+.texto{
   text-transform: uppercase;
   color: white;
   text-align: center;
@@ -39,7 +40,7 @@ body {
 }
 #text3 {
   font-size: 14px;
-  margin-top: 5px;
+  margin-top: 18px;
 }
 .link{
   margin-right: 20px;
@@ -50,6 +51,8 @@ body {
   background-color: green;
   margin: 0 550px;
   padding: 10px;
+  position: relative;
+  top: 60px;
 }
 a {
   color: white;
@@ -71,7 +74,6 @@ img {
   margin-left: auto;
   padding-left: 14px;
   padding-right: 14px;
-
 }
 .text{
   font-size: 30px;
@@ -82,11 +84,33 @@ img {
 }
 .container2{
   background-color: rgb(255,128,128);
-  outline: 1px solid red;
   margin-right: 75px;
   margin-left: 75px;
   padding-left: 14px;
   padding-right: 14px;
+}
+.text-1{
+  text-align: center;
+  color: white;
+}
+#title-service{
+  text-transform: uppercase;
+  margin-top: 0px;
+  padding-top: 100px;
+}
+#parrafo{
+  font-size: 14px;
+  margin-top: 50px;
+  line-height: 30px;
+}
+.logo{
+  width: 180px;
+}
+.text {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 100px;
+
 }
 
 *:before, *:after {
@@ -100,13 +124,27 @@ img {
 }
 .container3{
   background-color: white;
-  outline: 10px solid blue;
   margin-right: 75px;
   margin-left: 75px;
   padding-left: 14px;
   padding-right: 14px;
 }
-
+.title-work{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+}
+.parrafo-work{
+  text-align: center;
+  font-size: 14px;
+}
+#img-work{
+  width: 50%;
+  position: relative;
+  left: 300px;
+  right: 100px;
+}
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -128,8 +166,5 @@ a:hover {
   color: #E95853;
 }
 
-.text-uppercase {
-  text-transform: uppercase;
-}
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
